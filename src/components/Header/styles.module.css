@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #cde7ff;
+}
+
+.leftside {
+  display: flex;
+  align-items: center;
+
+  gap: 109px;
+}
+.leftside h1 {
+  font-family: var(--font-red-hat);
+}
+.leftSideText {
+  display: flex;
+  gap: 53px;
+}
+
+.rightside {
+  display: flex;
+  gap: 29px;
+}
+.secButtonStyle {
+  background: none;
+  border: none;
+}
+
+.firstButtonStyle {
+  background-color: white;
+  border: none;
+  width: 65px;
+  height: 44px;
+}
+
+button {
+  cursor: pointer;
+}
