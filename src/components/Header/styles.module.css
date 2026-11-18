@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 32px;
+  padding: 30px 111px;
   background-color: #cde7ff;
+  height: 104;
 }
 
 .leftside {
@@ -18,11 +19,18 @@
 .leftSideText {
   display: flex;
   gap: 53px;
+  font-size: 15px;
 }
 
 .rightside {
   display: flex;
+
   gap: 29px;
+}
+
+.rightside > button {
+  font-size: 15px;
+  font-weight: 100;
 }
 .secButtonStyle {
   background: none;
