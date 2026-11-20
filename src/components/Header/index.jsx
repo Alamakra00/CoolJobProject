@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.leftside}>
-        <h1>Blowjob</h1>
+        <h1>Cooljob</h1>
         <div className={styles.leftSideText}>
           <p>Поиск работы</p>
           <p>Поиск стартапов</p>
