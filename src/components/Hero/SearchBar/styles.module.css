@@ -3,9 +3,11 @@
   align-items: stretch;
   height: 105px;
   width: 1132.28px;
+  margin-top: 20px;
   background-color: #ffffff;
   border: 1px solid #cde7ff;
   box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .field {

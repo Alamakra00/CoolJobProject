@@ -1,0 +1,124 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 111px;
+  background-color: #cde7ff;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #282828;
+}
+
+.subtitle {
+  margin-top: 12px;
+  font-size: 15px;
+  color: rgba(141, 141, 141, 0.8);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 449px));
+  justify-content: space-between;
+  row-gap: 40px;
+  column-gap: 24px;
+  margin-top: 45px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 350px;
+  padding: 40px 46px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.category,
+.location,
+.company {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: rgba(141, 141, 141, 0.8);
+}
+
+.category {
+  gap: 18px;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.jobTitle {
+  max-width: 280px;
+  margin-top: 40px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #282828;
+}
+
+.location {
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.locationIcon {
+  width: 16px;
+  height: auto;
+  opacity: 0.6;
+}
+
+.company {
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 40px;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+}
+
+.button {
+  align-self: center;
+  width: 236px;
+  height: 63px;
+  margin-top: 95px;
+  border: none;
+  background-color: #274059;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #1d3045;
+}
+
+@media (max-width: 1440px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 449px));
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 900px) {
+  .main {
+    padding: 60px 20px;
+  }
+
+  .grid {
+    grid-template-columns: minmax(0, 449px);
+    justify-content: center;
+  }
+}

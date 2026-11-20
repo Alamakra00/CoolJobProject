@@ -1,11 +1,28 @@
 .main {
+  position: relative;
+  overflow: hidden;
   height: 696px;
-  padding: 0px 111px;
+  padding: 131px 111px 0;
   background-color: #cde7ff;
+}
+
+.infoBlock {
+  position: relative;
+  z-index: 1;
 }
 
 .mainText {
   font-size: 64px;
   width: 628px;
   height: 150px;
+}
+
+.decor {
+  margin-top: 100px;
+  position: absolute;
+  right: 0;
+  bottom: -140px;
+  width: 895px;
+  max-width: none;
+  pointer-events: none;
 }

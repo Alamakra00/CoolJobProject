@@ -1,0 +1,54 @@
+.main {
+  padding: 100px 111px;
+  background-color: #cde7ff;
+}
+.title {
+  width: 203px;
+  height: 66px;
+}
+.gridBox {
+  margin-top: 50px;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);
+  column-gap: 5.12%;
+  row-gap: 20px;
+}
+
+.box,
+.emptyBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  aspect-ratio: 270 / 198;
+  padding: 23.89% 11.11% 0;
+  gap: clamp(8px, 1.04vw, 20px);
+  text-align: start;
+}
+
+.box {
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.emptyBox {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.65);
+}
+
+.box > img,
+.emptyBox > img {
+  width: clamp(20px, 1.5625vw, 30px);
+  height: clamp(20px, 1.5625vw, 30px);
+}
+
+.box > p,
+.emptyBox > p {
+  font-size: clamp(12px, 0.833vw, 16px);
+}
+
+.emptyBox > p {
+  width: 52%;
+}
